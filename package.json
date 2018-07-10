@@ -14,7 +14,8 @@
     "test": "jest",
     "prettier": "prettier \"src/**/*.js\" --write",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "postinstall": "npm run build"
   },
   "prettier": {
     "trailingComma": "all"
