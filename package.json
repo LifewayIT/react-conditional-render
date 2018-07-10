@@ -1,0 +1,41 @@
+{
+  "name": "@lifewayit/react-conditional-render",
+  "version": "0.0.1",
+  "description": "conditionally render react components",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "recompose": "^0.26.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Dan Hodges <dan.hodges@lifeway.com>",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-jest": "^23.4.0",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.4.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "^16.4.1"
+  },
+  "keywords": [
+    "react",
+    "conditional",
+    "render"
+  ],
+  "license": "MIT"
+}
