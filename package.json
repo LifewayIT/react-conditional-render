@@ -1,6 +1,5 @@
 {
   "name": "@lifewayit/react-conditional-render",
-  "private": true,
   "version": "0.0.1",
   "description": "conditionally render react components",
   "author": "Dan Hodges <dan.hodges@lifeway.com>",
