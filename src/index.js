@@ -11,7 +11,10 @@ export const isArray = is(Array);
 export const toArray = ifElse(isArray, identity, a => [a]);
 
 export const every = array => array.every(i => i);
-export const all = compose(every, toArray);
+export const all = compose(
+  every,
+  toArray,
+);
 
 const conditionalRender = component =>
   branch(
